@@ -13,7 +13,7 @@ export interface ShutterConfig {
 })
 export class ShutterService {
 
-  private readonly BASE_URL = 'http://192.168.1.20:1080/';
+  private readonly BASE_URL = '/';
 
   constructor(private httpClient: HttpClient,
   ) {
